@@ -13,5 +13,5 @@ jobs:
            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
            AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
            AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }}
-           BUCKET_PATH: "" # Or to upload a pull_request: "/pr/${{github.event.number}}"
-           DIST_LOCATION_CODE: ./dist
+           BUCKET_PATH: ""
+           DIST_LOCATION_CODE: website
